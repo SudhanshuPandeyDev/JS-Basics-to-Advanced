@@ -1,0 +1,68 @@
+<!-- JavaScript DOM Manipulation Examples -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript DOM</title>
+    <style>
+      body {
+        background-color: #1a1a1a;
+        color: #fff;
+        text-align: center;
+      }
+      .highlight {
+        background-color: yellow;
+        font-weight: bold;
+        color: #1a1a1a;
+      }
+      .hidden {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Example 6: Event Handling in the DOM -->
+    <section id="example-6">
+      <h2>Event Handling in the DOM</h2>
+      <button id="clickMeButton">Click Me!</button>
+    </section>
+
+    <!-- Example 7: Event Delegation -->
+    <section id="example-7">
+      <h2>Event Delegation</h2>
+      <ul id="teaList">
+        <li class="teaItem">Green Tea</li>
+        <li class="teaItem">Black Tea</li>
+        <li class="teaItem">Oolong Tea</li>
+      </ul>
+      <p>Click on any tea to select it!</p>
+    </section>
+
+    <!-- Example 8: Form Handling -->
+    <section id="example-8">
+      <h2>Form Handling</h2>
+      <form id="feedbackForm">
+        <label for="feedbackInput">Your Feedback: </label>
+        <input type="text" id="feedbackInput" placeholder="Enter Feedback" />
+        <button type="submit">Submit Feedback</button>
+      </form>
+      <p id="feedbackDisplay"></p>
+    </section>
+
+    <!-- Example 9: DOM Content Loaded -->
+    <section id="example-9">
+      <h2>DOM content loaded</h2>
+      <p id="domStatus">Waiting for the DOM to load...</p>
+    </section>
+
+    <!-- Example 10: CSS Classes Manipulation -->
+    <section id="example-10">
+      <h2>CSS Classes Manipulation</h2>
+      <p id="descriptionText">This text will change color!</p>
+      <button id="toggleHighlight">Toggle Highlight</button>
+    </section>
+    <script src="./03_dom.js"></script>
+  </body>
+</html>
